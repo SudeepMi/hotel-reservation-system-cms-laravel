@@ -7,7 +7,7 @@
             <li>
                 <a href="{{ url('dashboard/room/booking') }}"> <img src="{{'/storage/room_types/'.$room_booking->room->room_type->images->first()->name}}" alt="">
                     <h5>{{ $room_booking->room->room_type->name }}, {{ $room_booking->room->room_number }} </h5>
-                    <p>Status: {{ studly_case($room_booking->status) }}
+                    <p>Status: {{ Str::studly($room_booking->status) }}
                     </p>
                     <span>{{ \Carbon\Carbon::parse($room_booking->arrival_date)->diffForHumans() }}</span> </a>
             </li>

@@ -7,7 +7,8 @@
                         <div>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-sm-12 col-md-3 foot-logo"> <img src="{{ asset("front/images/logo1.png") }}" alt="logo">
+                                    <div class="col-sm-12 col-md-3 foot-logo"> 
+                                        {{-- <img src="{{ asset("front/images/logo1.png") }}" alt="logo"> --}}
                                         <p class="hasimg">Hotel Simbiosis provides cheap hotel reservation service.</p>
                                         <p class="hasimg">The top-rated hotel reservation services.</p>
                                     </div>
